@@ -1,0 +1,21 @@
+Gun_OrassanShotgun:
+  statBases:
+    RangedWeapon_Cooldown: 1.05
+  shoot:
+    warmupTime: 0.9
+Bullet_OrassanShotgun:
+  projectile:
+    damageAmountBase: 30
+Gun_OrassanRifle:
+  projectile:
+    damageAmountBase: 12
+  statBases:
+    RangedWeapon_Cooldown: 1.45
+  shoot:
+    range: 31
+Gun_OrassanSniper:
+  statBases:
+    RangedWeapon_Cooldown: 3.15
+  shoot:
+    warmupTime: 2.65
+    range: 4
