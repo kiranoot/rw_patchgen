@@ -22,7 +22,7 @@ def patch_from_patchdef(differences):
         path = difference[0]
         value = difference[1]
         print(difference)
-        xpath = '//ThingDefs/ThingDef[defName="'+path[0]+'"]'
+        xpath = '/ThingDefs/ThingDef[defName="'+path[0]+'"]'
         if(path[-2] == 'shoot'):
             xpath += '/verbs/li[verbClass="Verb_Shoot"]/' + path[-1]
         else:
